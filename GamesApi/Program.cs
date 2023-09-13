@@ -5,9 +5,14 @@ Dictionary<string, List<string>> gamesMap = new()
 };
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication().AddJwtBearer();
+builder.Services.AddAuthorization();
+
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
-app.MapGet("/playergames", () => gamesMap);
+app.MapGet("/playergames", () => gamesMap)
+    .RequireAuthorization();
 
 app.Run();
