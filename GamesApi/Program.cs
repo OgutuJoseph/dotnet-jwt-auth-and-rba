@@ -6,6 +6,7 @@ Dictionary<string, List<string>> gamesMap = new()
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddAuthentication().AddJwtBearer();
 builder.Services.AddAuthorization();
 
 var app = builder.Build();

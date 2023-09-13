@@ -24,3 +24,11 @@ C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba
 C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\obj\Debug\net7.0\GamesApi.pdb
 C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\obj\Debug\net7.0\GamesApi.genruntimeconfig.cache
 C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\obj\Debug\net7.0\ref\GamesApi.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\AB030WP\OneDrive - Absa\OgutuJoseph\Projects\C#\dotnet-jwt-auth-and-rba\GamesApi\obj\Debug\net7.0\GamesApi.csproj.CopyComplete
