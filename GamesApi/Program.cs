@@ -13,6 +13,8 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 app.MapGet("/playergames", () => gamesMap)
-    .RequireAuthorization();
+    .RequireAuthorization(policy => {
+        policy.RequireRole("admin");
+    });
 
 app.Run();
