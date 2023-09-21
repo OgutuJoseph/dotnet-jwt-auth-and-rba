@@ -6,6 +6,12 @@ Dictionary<string, List<string>> gamesMap = new()
     { "player2", new List<string>() { "Forza Horizon 5", "Final Fantasy XIV", "FIFA 23" } },
 };
 
+Dictionary<string, List<string>> subscriptionMap = new()
+{
+    { "silver", new List<string>() { "Street Fighter II", "Minecraft" } },
+    { "gold", new List<string>() {"Street Fighter II", "Minecraft", "Forza Horizon 5", "Final Fantasy XIV", "FIFA 23" } },
+};
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddAuthentication().AddJwtBearer();
@@ -21,6 +27,13 @@ app.MapGet("/playergames", () => gamesMap)
 
 app.MapGet("/mygames", (ClaimsPrincipal user) =>
 {
+    var hasClaim = user.HasClaim(claim => claim.Type == "subscription");
+    if (hasClaim)
+    {
+        var subs = user.FindFirstValue("subscription") ?? throw new Exception("Claim has no value!");
+        return Results.Ok(subscriptionMap[subs]);
+    }
+
     ArgumentNullException.ThrowIfNull(user.Identity?.Name);
     var username = user.Identity.Name;
 
