@@ -1,4 +1,0 @@
-Module 3 - Using JWT authentication and requiring authorization
-• Adding Auth JwtBearer package
-    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
-    -> dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
