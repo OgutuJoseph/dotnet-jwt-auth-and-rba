@@ -1,0 +1,31 @@
+Module 5 - Understanding Json Web Tokens (JWT)
+• To view decoded token details
+    [Go to URL :: https://jwt.ms]
+    -> on the text area, insert token from the second (• To view token details) step above (04.Module4.txt)
+
+    ^^ Output as below ^^
+    1. Header - defines the algorithm that was used to encode the token itself; and type
+    {
+        "alg": "HS256",
+        "typ": "JWT"
+    }.
+
+    2. Body - Claims that are included as part of the generated token
+    .{
+        "unique_name": "AB030WP",
+        "sub": "AB030WP",
+        "jti": "c58ebbdb",
+        "aud": [
+            "http://localhost:53861",
+            "https://localhost:44391",
+            "http://localhost:5288",
+            "https://localhost:7103"
+        ],
+        "nbf": 1695043455,
+        "exp": 1702905855,
+        "iat": 1695043458,
+        "iss": "dotnet-user-jwts"
+    }
+
+    3. Signature - Encoded by details from header and body sections
+    .[Signature]

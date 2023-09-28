@@ -1,0 +1,13 @@
+Jan 31 2023
+URL : https://www.youtube.com/watch?v=wVFfPrB5kEw -- ASP.NET Core JWT Authentication and role-based authorization
+
+
+Topics covered:
+00:28 [Module 1] Understanding Token-Based Authentication      
+01:56 [Module 2] Creating a simple minimal API
+08:13 [Module 3] Using JWT authentication and requiring authorization
+13:02 [Module 4] Generating tokens with dotnet user-jwts
+14:50 [Module 5] Understanding Json Web Tokens (JWT)
+21:42 [Module 6] Implementing role based authorization
+24:43 [Module 7] Extracting user information via ClaimsPrincipal
+33:03 [Module 8] Evaluating user claims

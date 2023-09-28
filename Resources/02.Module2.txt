@@ -1,0 +1,4 @@
+Module 2 - Creating a simple minimal API
+• Creating GamesApi
+    [Inside dotnet-jwt-auth-and-rba]
+    -> dotnet new web -n [Name : GamesApi] --framework net7.0

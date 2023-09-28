@@ -1,0 +1,8 @@
+Module 6 - Implementing role based authorization
+• To generate a 'sample' token with admin role-claims
+    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
+    -> dotnet user-jwts create --role "admin"
+
+• To view token details
+    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
+    -> dotnet user-jwts print [tokenId :: e.g 6afd0b14] 
