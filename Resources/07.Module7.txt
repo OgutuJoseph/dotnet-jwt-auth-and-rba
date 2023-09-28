@@ -1,0 +1,20 @@
+Module 7 - Extracting user information via ClaimsPrincipal
+• To generate a 'sample' token with player role-claims
+    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
+    -> dotnet user-jwts create --role "player"
+
+• To view token details
+    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
+    -> dotnet user-jwts print [tokenId :: e.g 328deeea] 
+
+
+
+• To generate a 'sample' token with player role-claims for a specific user (e.g., player1)
+    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
+    -> dotnet user-jwts create --role "player" -n player1
+
+• To view token details
+    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
+    -> dotnet user-jwts print [tokenId :: e.g 688e2152] 
+
+    

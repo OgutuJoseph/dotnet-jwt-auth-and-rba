@@ -1,0 +1,19 @@
+Module 1 - Understanding Token-Based Authentication 
+
+• Steps Involved
+    -> Request authorization which is stored in the authorization server
+    -> Authorization server sends back 'Access token'
+        ••• Included in the token  
+            - How to verify it
+            - Where it came from
+            - Where it can be used
+            - Who is authorized
+            - What can be done with it
+            - ...and so much more
+
+• What to learn
+    ••• How to
+        - Require tokens in an ASP.NET Core Web API
+        - Read info included in the tokens
+        - Generate tokens for local development
+
