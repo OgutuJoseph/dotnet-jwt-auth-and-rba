@@ -1,8 +1,0 @@
-Module 4 - Generating tokens with dotnet user-jwts
-• To generate a 'sample' token
-    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
-    -> dotnet user-jwts create
-
-• To view token details
-    [Inside dotnet-jwt-auth-and-rba >> GamesApi]
-    -> dotnet user-jwts print [tokenId :: e.g c58ebbdb] 
